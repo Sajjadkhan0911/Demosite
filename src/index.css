@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9F9FE;
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+} 
+/* p{
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: 'Poppins';
+}  */
+.backgroung-img{
+    background-image: url('https://demosites.royal-elementor-addons.com/personal-blog-v3/wp-content/uploads/sites/71/2023/04/About-2.jpg') ;
+    background-size: cover;
+    background-position:50%;
+    opacity: 1;
+    background-color: palegreen;
+}  
